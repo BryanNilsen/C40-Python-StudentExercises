@@ -13,15 +13,15 @@ c28 = Cohort("Cohort 28")
 c34 = Cohort("Cohort 34")
 
 scivarolo = Student("Sebastian", "Civarolo", "SebastianCiv", "c28")
-rhecht = Student("Robby", "Hecht", "RobbyHecht", "c28")
-dstorm = Student("Dan", "Storm", "DanceStorm", "c32")
-eclarke = Student("Eliot", "Clarke", "EliotClarke", "c32")
-ccrutchfield = Student("Curtis", "Crutchfield", "CurtisCrutchfield", "c34")
-jmccray = Student("Jacquelyn", "McCray", "JacquelynMcCray", "c34")
+rhecht = Student("Robby", "Hecht", "RobbyHecht", c28)
+dstorm = Student("Dan", "Storm", "DanceStorm", c32)
+eclarke = Student("Eliot", "Clarke", "EliotClarke", c32)
+ccrutchfield = Student("Curtis", "Crutchfield", "CurtisCrutchfield", c32)
+jmccray = Student("Jacquelyn", "McCray", "JacquelynMcCray", c34)
 
-sbrownlee = Instructor("Steve", "Brownlee", "Coach", "C32", "Javascript")
-jshep = Instructor("Joe", "Shepherd", "Joes", "C28", "Python")
-jdavid = Instructor("Jisie", "David", "Jisie", "C34", "C#")
+sbrownlee = Instructor("Steve", "Brownlee", "Coach", c32, "Javascript")
+jshep = Instructor("Joe", "Shepherd", "Joes", c28, "Python")
+jdavid = Instructor("Jisie", "David", "Jisie", c34, "C#")
 
 
 # have instructors assign exercises

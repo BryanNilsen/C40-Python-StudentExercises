@@ -3,8 +3,7 @@ import sqlite3
 
 class Student():
 
-    def __init__(self, id, first, last, handle, cohort):
-        self.id = id
+    def __init__(self, first, last, handle, cohort):
         self.first_name = first
         self.last_name = last
         self.slackhandle = handle
@@ -45,7 +44,7 @@ class StudentExerciseReports():
             all_students = db_cursor.fetchall()
 
             for student in all_students:
-                print(f'{student[1]} {student[2]} is in {student[5]}')
+                print(student)
 
 
 reports = StudentExerciseReports()

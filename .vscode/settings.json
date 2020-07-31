@@ -1,11 +1,11 @@
 {
-    "sqltools.connections": [
-        {
-            "database": "${workspaceFolder:StudentExercises}/studentexercises.db",
-            "driver": "SQLite",
-            "name": "student-exercises",
-            "previewLimit": 50
-        }
-    ],
-    "sqltools.useNodeRuntime": true
+  "sqltools.connections": [
+    {
+      "database": "${workspaceFolder:StudentExercises}/studentexercises.db",
+      "driver": "SQLite",
+      "name": "student-exercises",
+      "previewLimit": 50
+    }
+  ],
+  "sqltools.useNodeRuntime": true
 }

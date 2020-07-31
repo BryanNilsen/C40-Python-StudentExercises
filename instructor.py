@@ -25,3 +25,6 @@ class Instructor(NSSPerson):
 
     def assign_exercise(self, student, exercise):
         student.add_exercise(exercise)
+
+    def __repr__(self):
+        return f'{self.first_name} {self.last_name}- {self.cohort}'

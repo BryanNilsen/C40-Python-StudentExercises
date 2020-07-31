@@ -19,9 +19,12 @@ class Student(NSSPerson):
         super().__init__(first, last, slack, cohort)
         self.first_name = first
         self.last_name = last
-        self.slack = slack
+        self.slackhandle = slack
         self.cohort = cohort
         self.exercises = []
 
     def add_exercise(self, exercise):
         self.exercises.append(exercise)
+
+    def __repr__(self):
+        return f'{self.first_name} {self.last_name} is in {self.cohort}'

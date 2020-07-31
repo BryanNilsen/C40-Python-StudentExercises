@@ -76,13 +76,13 @@ INSERT INTO students ("first_name", "last_name", "slackhandle", "cohort_id")
 VALUES ("Jacquelyn", "McCray", "JacquelynMcCray", 3);
 
 INSERT INTO instructors ("first_name", "last_name", "slackhandle", "specialty", "cohort_id")
-VALUES ("Steve", "Brownlee", "Coach", 2, "Javascript");
+VALUES ("Steve", "Brownlee", "Coach", "Javascript", 2);
 
 INSERT INTO instructors ("first_name", "last_name", "slackhandle", "specialty", "cohort_id")
-VALUES ("Joe", "Shepherd", "Joes", 1, "Python");
+VALUES ("Joe", "Shepherd", "Joes", "Python", 1);
 
 INSERT INTO instructors ("first_name", "last_name", "slackhandle", "specialty", "cohort_id")
-VALUES ("Jisie", "David", "Jisie", 3, "C#");
+VALUES ("Jisie", "David", "Jisie", "C#", 3);
 
 INSERT INTO exercises ("name", "language")
 VALUES ("ChickenMonkey", "Javascript");
@@ -95,6 +95,12 @@ VALUES ("KandyKorner", "React");
 
 INSERT INTO exercises ("name", "language")
 VALUES ("Flexbox Froggy", "CSS");
+
+INSERT INTO exercises ("name", "language")
+VALUES ("Keahua", "Python");
+
+INSERT INTO exercises ("name", "language")
+VALUES ("Trestlebridge", "C#");
 
 INSERT INTO student_exercises ("student_id", "exercise_id")
 VALUES (1, 1);

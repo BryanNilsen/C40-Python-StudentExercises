@@ -17,3 +17,5 @@ class Cohort():
 
     # def add_instructor(self, instructor_dict):
     #     self.instructors.add(instructor_dict)
+    def __repr__(self):
+        return f'{self.name}'
